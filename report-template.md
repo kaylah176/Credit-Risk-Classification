@@ -4,21 +4,21 @@
 * Purpose of the analysis: 
 Credit risk classification analysis using a machine learning model serves multiple purposes such as risk assessment, decision making, interest rate derminations, and portfolio management. The core objective is to assess the likelihood that a borrower will default on their loan or credit obligations. Overall, credit risk classification using machine learning models to improve efficiency, accuracy, and realiability of credit risk assessment processes.
 
-* Explain what financial information the data was on, and what you needed to predict.
+* Financial Information Regarding the Data 
 The lending dataset involved multiple categories that went into determining an individuals loan status such as loan size, interest rate, borrower income, debt to income, number of accountts, derogatory marks, and total debt. The goal is to split the features into all of these categories and the labels column would be loan status.
 
-* Describe the stages of the machine learning process you went through as part of this analysis.
-  ** Split the data into training and testing datasets by using 'train_test_split'
-  ** Create a Logistic Regression Model with the Orginal Data
-  ** Save the predictions on the testing data labels by using the testing feature data (X_test) and the fitted model
-  ** Evaluate the model's performance by doing the following:
-       Calculate the accuracy score of the model, generate a confusion matrix, and print the classification report
+Stages of the machine learning process: 
+    Split the data into training and testing datasets by using 'train_test_split'
+    Create a Logistic Regression Model with the Orginal Data
+    Save the predictions on the testing data labels by using the testing feature data (X_test) and the fitted model
+    Evaluate the model's performance by doing the following:
+Calculate the accuracy score of the model, generate a confusion matrix, and print the classification report
   Predict a Logistic Regression Model with Resampled Training Data
-  ** Scale the X_test and X_train data using 'StandardScaler'
-  ** Make predictions using the scaled testing data
-  ** Apply Raondom Oversampling Techniques using 'RandomOverSampler'
-  ** Create a new Logistic Regression Model using the oversampled data
-  ** Evaulate the model's performance
+    Scale the X_test and X_train data using 'StandardScaler'
+    Make predictions using the scaled testing data
+    Apply Raondom Oversampling Techniques using 'RandomOverSampler'
+    Create a new Logistic Regression Model using the oversampled data
+    Evaulate the model's performance
   
 ## Results
 
