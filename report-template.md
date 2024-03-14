@@ -7,18 +7,16 @@ Credit risk classification analysis using a machine learning model serves multip
 * Financial Information Regarding the Data 
 The lending dataset involved multiple categories that went into determining an individuals loan status such as loan size, interest rate, borrower income, debt to income, number of accountts, derogatory marks, and total debt. The goal is to split the features into all of these categories and the labels column would be loan status.
 
-Stages of the machine learning process: 
+## Stages of the machine learning process: 
 * Split the data into training and testing datasets by using 'train_test_split'
 * Create a Logistic Regression Model with the Orginal Data
-    Save the predictions on the testing data labels by using the testing feature data (X_test) and the fitted model
-    Evaluate the model's performance by doing the following:
-Calculate the accuracy score of the model, generate a confusion matrix, and print the classification report
-  Predict a Logistic Regression Model with Resampled Training Data
-    Scale the X_test and X_train data using 'StandardScaler'
-    Make predictions using the scaled testing data
-    Apply Raondom Oversampling Techniques using 'RandomOverSampler'
-    Create a new Logistic Regression Model using the oversampled data
-    Evaulate the model's performance
+* Save the predictions on the testing data labels by using the testing feature data (X_test) and the fitted model
+* Evaluate the model's performance by doing the following: calculate the accuracy score, generate a confusion matrix, and print the classification report 
+
+* Predict a Logistic Regression Model with Resampled Training Data
+* Apply Raondom Oversampling Techniques using 'RandomOverSampler'
+* Create a new Logistic Regression Model using the oversampled data
+* Evaulate the model's performance
   
 ## Results
 
