@@ -14,13 +14,11 @@ The lending dataset involved multiple categories that went into determining an i
 * Evaluate the model's performance by doing the following: calculate the accuracy score, generate a confusion matrix, and print the classification report 
 
 * Predict a Logistic Regression Model with Resampled Training Data
-* Apply Raondom Oversampling Techniques using 'RandomOverSampler'
+* Apply Random Oversampling Techniques using 'RandomOverSampler'
 * Create a new Logistic Regression Model using the oversampled data
 * Evaulate the model's performance
   
 ## Results
-
-Using bulleted lists, describe the balanced accuracy scores and the precision and recall scores of all machine learning models.
 
 * Machine Learning Model 1:
   * Description of Model 1 Accuracy, Precision, and Recall scores.
@@ -39,8 +37,6 @@ Using bulleted lists, describe the balanced accuracy scores and the precision an
       Healthy Loans: 0.99 High Risk Loands: 0.99 
 
 ## Summary
-
-Summarize the results of the machine learning models, and include a recommendation on the model to use, if any. 
 When the data is oversampled to have an equal amount of healthy loans and high risk loans, the model has an identical performance for predicting both classes. This demonstrates that with balanced data the model is equally effective at predicting both healthy loans (low default) and high risk (high default loans). However, with the original data since its split towards healthy loans the model more accurately predicted healthy loans compared to high risk loans. Overall, this indicates that dataset compositions can influence its predictive accuracy for different classes. 
 
 
